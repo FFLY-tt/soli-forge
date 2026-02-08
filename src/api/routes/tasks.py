@@ -182,6 +182,7 @@ def get_task_detail(task_id: str, db: Session = Depends(get_db)):
             "fix": task.fixed_code
         },
         "slither_report": task.slither_report,
+        "fuzzer_report": task.fuzzer_report,
         "matrix_cases": task.test_cases,
         "created_at": task.created_at,
         "started_at": task.started_at,

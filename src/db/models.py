@@ -35,7 +35,7 @@ class Task(Base):
 
     # 报告存储
     slither_report = Column(Text, nullable=True)
-
+    fuzzer_report = Column(Text, nullable=True)
     # 流程控制
     current_phase = Column(String(50), nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
