@@ -136,8 +136,6 @@ In a standard CI/CD pipeline, a "Passed Test" is good. In SoliForge's Red Team p
 | ![Dashboard](./docs/dashboard.png) | ![Matrix](./docs/matrix.png) |
 | *Real-time monitoring of Red/Blue agents* | *Visualizing active threats and fixes* |
 
-*(Note: Please replace the image paths above with your actual screenshots)*
-
 ---
 
 ## 🤝 Contributing
