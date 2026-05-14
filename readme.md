@@ -69,6 +69,7 @@ graph LR
     E --> F(Regression Validation)
     F --> B
     D -- Secure --> G[End Mission]
+```
 ## ⚡ Getting Started
 
 ### Prerequisites
@@ -77,7 +78,7 @@ graph LR
 * **Python 3.10+**
 * **Node.js 18+**
 * An API Key for **DashScope (Qwen)**
-```
+
 ### 1. Backend Setup
 
 ```bash
